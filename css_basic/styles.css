@@ -1,12 +1,17 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
+    border-width: 1;
+    border-color: aqua;
+    border-style:solid;
 }
+
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
-}
+}  
 article {
     flex: 2;
     overflow-y: auto;
